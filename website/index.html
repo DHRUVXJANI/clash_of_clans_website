@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Gaming Website</title>
+    <!--Boxi Icons Link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--remix icons link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!--custom css link-->
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <a href = '#' class="logo">Coc Rivals</a>
+
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Clans</a></li>
+            <li><a href="#">Town</a></li>
+            <li><a href="#">Troops</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    
+<div class="character-selector">
+    <span>Choose Your Favorite Troop:</span>
+    <select id="characterSelect">
+        <option value="hog" selected>Hog Rider</option>
+        <option value="archer">Archer Queen</option>
+        <option value="pekka">P.E.K.K.A</option>
+        <option value="wizard">Wizard</option>
+        <option value="barbarian">Barbarian King</option>
+        <option value="goblin">Goblin</option>
+        <option value="village-girl">Default</option>
+    </select>
+</div>
+    <section class="hero">
+        <div class="hero-text">
+            <h5>#2 Trending</h5>
+            <h4>You are playing as</h4>
+            <h1>HogRider</h1>
+            <p>Join millions of players around the world and build your own village, <br> raise a clan, and compete in epic clan wars</p>
+            <a href="#">Compare</a>
+            <a href="#" class="ctaa"><i class="ri-play-circle-fill"></i>Watch Gameplay</a>
+        </div>
+        <div class="hero-img">
+            <img src="hog_rider.png" alt="">
+        </div>
+        <div id="compareModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Compare Stats</h2>
+              <form id="compareForm">
+                <div class="compare-fields">
+                  <div>
+                    <label>Player 1 Name<br><input type="text" name="name1" required></label><br>
+                    <label>Stat 1<br><input type="number" name="stat1_1" required placeholder="e.g. Town Hall Level"></label><br>
+                    <label>Stat 2<br><input type="number" name="stat1_2" required placeholder="e.g. Trophies"></label><br>
+                    <label>Stat 3<br><input type="number" name="stat1_3" required placeholder="e.g. War Stars"></label>
+                  </div>
+                  <div>
+                    <label>Player 2 Name<br><input type="text" name="name2" required></label><br>
+                    <label>Stat 1<br><input type="number" name="stat2_1" required placeholder="e.g. Town Hall Level"></label><br>
+                    <label>Stat 2<br><input type="number" name="stat2_2" required placeholder="e.g. Trophies"></label><br>
+                    <label>Stat 3<br><input type="number" name="stat2_3" required placeholder="e.g. War Stars"></label>
+                  </div>
+                </div>
+                <button type="submit" class="compare-btn">Compare</button>
+                <button type="button" id="resetCompare" class="compare-btn">Reset</button>
+              </form>
+              <div id="compareResult" style="display:none; margin-top:20px;"></div>
+            </div>
+          </div>
+    </section>
+    <div class="icons">
+        <a href="#"><i class="ri-youtube-fill"></i></a>
+        <a href="#"><i class="ri-instagram-fill"></i></a>
+        <a href="#"><i class="ri-twitter-x-line"></i></a>
+        <a href="#"><i class="ri-discord-fill"></i></a>
+    </div>
+
+    <div class="scroll-down">
+        <a href="#" class="scroll-down"><i class="ri-arrow-down-line"></i></a>
+    </div>
+
+    <section id="about" class="placeholder-section">
+      <h2>About</h2>
+      <p>Clash of Clans is a popular mobile strategy game developed by Supercell. Players build their own villages, train troops, and battle against millions of players worldwide. The game is known for its engaging clan system, epic wars, and regular updates that keep the gameplay fresh and exciting.</p>
+      <ul>
+        <li>Build and upgrade your village</li>
+        <li>Join or create a clan</li>
+        <li>Compete in Clan Wars</li>
+        <li>Unlock powerful heroes and troops</li>
+      </ul>
+    </section>
+    <section id="clans" class="placeholder-section">
+      <h2>Clans</h2>
+      <p>Clans are the heart of Clash of Clans. By joining a clan, you can team up with friends or players from around the world to share troops, strategies, and participate in epic Clan Wars.</p>
+      <ul>
+        <li>Donate and receive troops</li>
+        <li>Participate in Clan Games and Clan War Leagues</li>
+        <li>Earn rewards and climb the leaderboards</li>
+      </ul>
+    </section>
+    <section id="town" class="placeholder-section">
+      <h2>Town</h2>
+      <p>Your Town is your base of operations. Upgrade your Town Hall to unlock new buildings, defenses, and features. Strategically place your defenses to protect your resources from enemy attacks.</p>
+      <ul>
+        <li>Upgrade your Town Hall for new content</li>
+        <li>Defend your village with cannons, archer towers, and traps</li>
+        <li>Manage resources: Gold, Elixir, and Dark Elixir</li>
+      </ul>
+    </section>
+    <section id="troops" class="placeholder-section">
+      <h2>Troops</h2>
+      <p>Train a variety of troops to attack enemy villages and defend your own. Each troop has unique abilities and strengths, from the mighty Barbarian to the powerful Dragon and strategic Hog Rider.</p>
+      <ul>
+        <li>Unlock new troops by upgrading your Barracks</li>
+        <li>Mix and match troops for the best attack strategies</li>
+        <li>Upgrade troops in the Laboratory for more power</li>
+      </ul>
+    </section>
+    <section id="contact" class="placeholder-section">
+      <h2>Contact Us</h2>
+      <p>Have questions or need support? Reach out to the Clash of Clans community or Supercell support for help.</p>
+      <ul>
+        <li>Official Forums: <a href="https://forum.supercell.com/" target="_blank" class="link">Supercell Forums</a></li>
+        <li>Support: <a href="https://help.supercellsupport.com/clash-of-clans/en/" target="_blank" class="link">Supercell Support</a></li>
+        <li>Email: <a href="mailto:support@supercell.com" class="link">support@supercell.com</a></li>
+      </ul>
+    </section>
+    <div id="compareModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Comparison Feature</h2>
+        <p>Compare your stats with others! (Demo modal)</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
