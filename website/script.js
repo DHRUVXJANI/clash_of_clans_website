@@ -7,7 +7,7 @@ const modal = document.getElementById('compareModal');
 const closeModalBtn = document.querySelector('.modal .close');
 
 if (compareForm && compareResult && resetCompare && compareBtn && modal && closeModalBtn) {
-  // CoC-specific stat configuration (optional use later)
+  // CoC-specific stat configuration 
   const cocStats = {
     stat1_1: { label: "Town Hall Level", isHigherBetter: true },
     stat1_2: { label: "Trophies", isHigherBetter: true },

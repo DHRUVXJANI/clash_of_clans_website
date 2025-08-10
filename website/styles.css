@@ -45,20 +45,20 @@
 }
 /* Village Girl Theme */
 .village-girl-theme {
-    --primary-color: #e67bb0;             /* Soft pink for feminine touch */
-    --secondary-color: #fefae0;           /* Warm parchment background */
-    --accent-color: #a64ac9;              /* Royal purple like CoC troops' costumes */
-    --light-accent: #ffe066;              /* Sunlit yellow - natural vibe */
-    --dark-color: #5d3a00;                /* Dark bark/brown - earthy grounding */
+    --primary-color: #e67bb0;             
+    --secondary-color: #fefae0;           
+    --accent-color: #a64ac9;              
+    --light-accent: #ffe066;              
+    --dark-color: #5d3a00;                
     
-    --hero-image: url('village-girl-bg.png'); /* Replace with themed background */
+    --hero-image: url('village-girl-bg.png'); 
     --gradient-angle: 145deg;
 
-    --gradient-1: #eec9d2;                /* Blossom pink */
-    --gradient-2: #9cd29c;                /* Soft forest green */
-    --gradient-3: #fde3a7;                /* Light gold/cream */
+    --gradient-1: #eec9d2;                
+    --gradient-2: #9cd29c;                
+    --gradient-3: #fde3a7;                
     
-    --header-bg: rgba(198, 111, 169, 0.85); /* Warm magenta overlay for header */
+    --header-bg: rgba(198, 111, 169, 0.85); 
 
     --section-odd-gradient: linear-gradient(145deg, rgba(255, 230, 230, 0.95) 0%, rgba(199, 153, 255, 0.9) 100%);
     --section-even-gradient: linear-gradient(145deg, rgba(211, 240, 189, 0.9) 0%, rgba(189, 166, 121, 0.9) 100%);
@@ -83,16 +83,16 @@
 
 /* Goblin Theme */
 .goblin-theme {
-    --primary-color: #2ecc71;       /* Emerald green */
-    --secondary-color: #27ae60;     /* Darker green */
-    --accent-color: #f5ee12;        /* Orange */
-    --light-accent: #f1c40f;        /* Yellow */
-    --dark-color: #16a085;          /* Teal */
+    --primary-color: #2ecc71;       
+    --secondary-color: #27ae60;     
+    --accent-color: #f5ee12;        
+    --light-accent: #f1c40f;       
+    --dark-color: #16a085;          
     --hero-image: url('goblin.png');
     --gradient-angle: 145deg;
-    --gradient-1: #16a085;          /* Teal */
-    --gradient-2: #27ae60;          /* Dark green */
-    --gradient-3: #2ecc71;          /* Emerald green */
+    --gradient-1: #16a085;          
+    --gradient-2: #27ae60;          
+    --gradient-3: #2ecc71;          
     --header-bg: rgba(46, 204, 113, 0.9);
     --section-odd-gradient: linear-gradient(135deg, rgba(46, 204, 113, 0.9) 0%, rgba(39, 174, 96, 0.95) 100%);
     --section-even-gradient: linear-gradient(135deg, rgba(39, 174, 96, 0.95) 0%, rgba(22, 160, 133, 0.9) 100%);
